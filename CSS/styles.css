@@ -1,0 +1,123 @@
+/* Start Global Rules */
+* {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+@media (min-width: 600px) {
+    .container {
+        max-width: 1500px;
+    }
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-color: #f1f1f1;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* End Global Rules */
+
+/* Start Header */
+header .holder  {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: black;
+}
+header a:hover {
+    background-color: #ccc;
+}
+/* End header */
+/* Start Galerie */
+.galerie img {
+    display: block;
+    width: 100%;
+}
+@media (min-width: 600px) {
+    .galerie .holder  {
+        display: flex;
+    }
+}
+/* End Galerie */
+
+/* Start About */
+.about {
+    padding-top: 100px;
+}
+.about .holder {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.about .holder h2 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+.about .holder img {
+    width: 100%;
+    max-width: 300px;
+    margin: 30px 0;
+}
+.about .holder p {
+    line-height: 1.7;
+}
+/* End About */
+
+/* Start Contact */
+.contact {
+    padding: 20px 0;
+    text-align: center;
+}
+.contact .holder {
+    width: 70%;
+    margin: 0 auto;
+}
+.contact .holder span {
+
+}
+.contact .holder form {
+    margin: 20px;
+}
+.contact .holder form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.contact .holder form input {
+    display: block;
+    width: 100%;
+}
+.contact .holder form input:not(:last-child) {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.contact .holder form input:last-child {
+    background: #616161;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+/* End Contact */
+/* Start Footer */
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+footer a {
+    color: unset;
+}
+/* End Footer */
